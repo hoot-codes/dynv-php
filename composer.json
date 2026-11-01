@@ -1,0 +1,26 @@
+{
+    "name": "dynv/dynv",
+    "description": "Dependency-free PHP client for the Dynv local agent",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": ">=8.1",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dynv\\": "src/"
+        }
+    },
+    "homepage": "https://dynv.dev/docs/",
+    "keywords": [
+        "env",
+        "secrets",
+        "environment-variables",
+        "dynv"
+    ],
+    "support": {
+        "docs": "https://dynv.dev/docs/",
+        "source": "https://github.com/hoot-codes/dynv-php"
+    }
+}
